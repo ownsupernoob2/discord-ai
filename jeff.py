@@ -12,8 +12,8 @@ model = GPT4All("mistral-7b-instruct-v0.1.Q4_0.gguf")
 system_template = 'You will be provided with an emoji, and your task is to translate it into text that makes sense. Do not use any emojis and do not respond to non-emoji questions. Do your best with text only. Example: 🦇👨 = Batman,  🌧️🏹 = Rainbow.'
 AIname = 'Cakabal'
 
-DISCORDid = '550977095996801024'
-TOKEN = 'MTIxNTU3MDg0MDI0MzE0MjY4Ng.GOWz_Z.BvQsd1vgBY0tmMpp1_VXDPYbQezlS5Ol2fCg3s'
+DISCORDid = ''
+TOKEN = ''
 
 prompt_template = f'Cakabal: {0}\n{{1}}: '
 pro_template = f'{{1}}: {{0}}\nCakabal: {{2}}'
