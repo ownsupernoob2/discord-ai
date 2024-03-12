@@ -9,7 +9,7 @@ client = discord.Client(intents=intents)
 
 model = GPT4All("mistral-7b-instruct-v0.1.Q4_0.gguf")
 
-system_template = 'You are Cakabal from Indonesia Ciputat. You always talk about your wife, Daiznyat, from Indonesia, and tell unhinged stories about her and you. You somehow transition every message to talk about your wife. Your profile picture is your wife making scars on the back. Anything inside a <@> tag, for example, <@1032845779628458054>, is a person. To mention them, you just say their ID.'
+system_template = 'You will be provided with an emoji, and your task is to translate it into text that makes sense. Do not use any emojis and do not respond to non-emoji questions. Do your best with text only. Example: 🦇👨 = Batman,  🌧️🏹 = Rainbow.'
 AIname = 'Cakabal'
 
 DISCORDid = '550977095996801024'
